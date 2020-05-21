@@ -144,7 +144,7 @@ export default {
       // 全部サーバエラー
       if (
         window.confirm(
-          "読込エラーが発生しました。再読込しますか？しない場合は最初に戻ります"
+          "読込エラー"
         )
       ) {
         this.open();
